@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+@keyframes fadeToExistence {
+	0% {
+		opacity: 0%;
+	}
+	20% {
+		opacity: 0%;
+	}
+	30% {
+		opacity: 100%;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+
+@keyframes background {
+	from {
+		background-color: #ffffff;
+	}
+	to {
+		background-color: #0CCEB2;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 3px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #2D4356;
+	border-radius: 10px;
+}
+
+* {
+	background-color: #0CCEB2;
+	animation-name: background;
+	animation-duration: 4s;
+	font-family: "Quicksand", sans-serif;
+	font-size: 20px;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	user-select: none;
+	color: #2D4356;
+	cursor: url('Objects/Cursor.png'), auto;
+}
+
+.about hr {
+	border: 5px solid #2D4356;
+	margin: 10px 10px;
+	background-color: #2D4356;
+	border-radius: 5px;
+	animation-name: fadeToExistence;
+	animation-duration: 40s;
+}
+
+.creators hr {
+	border: 5px solid #2D4356;
+	margin: 10px 10px;
+	background-color: #2D4356;
+	border-radius: 5px;
+	animation-name: fadeToExistence;
+	animation-duration: 90s;
+}
+
+.downloads hr {
+	border: 5px solid #2D4356;
+	margin: 10px 10px;
+	background-color: #2D4356;
+	border-radius: 5px;
+	animation: none;
+}
+
+.showcase h1 {
+	margin-top: 0px;
+	font-size: 200px;
+	animation: none;
+	animation-name: fadeToExistence;
+	animation-duration: 20s;
+	text-align: right;
+	margin-right: 10px;
+	user-select: none;
+}
+
+.showcase p {
+	text-align: right;
+	margin-right: 10px;
+	animation-name: fadeToExistence;
+	animation-duration: 30s;
+}
+
+.about h3 {
+	font-size: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	animation-name: fadeToExistence;
+	animation-duration: 50s;
+}
+
+.about p#abt1 {
+	margin-left: 10px;
+	margin-right: 10px;
+	animation-name: fadeToExistence;
+	animation-duration: 60s;
+}
+
+.about p#abt2 {
+	margin-left: 10px;
+	margin-right: 10px;
+	animation-name: fadeToExistence;
+	animation-duration: 70s;
+}
+
+.about p#abt3 {
+	margin-left: 10px;
+	margin-right: 10px;
+	animation-name: fadeToExistence;
+	animation-duration: 80s;
+}
+
+.creators h3 {
+	font-size: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	animation-name: fadeToExistence;
+	animation-duration: 100s;
+}
+
+.creators p {
+	margin-left: 10px;
+	margin-right: 10px;
+	animation-name: fadeToExistence;
+	animation-duration: 110s;
+	margin-bottom: 10px;
+}
+
+.dwnld-card-collection {
+	display: inline-flex;
+}
+
+.downloads {
+	margin-left: 10px;
+}
+
+.downloads h3 {
+	font-size: 40px;
+}
+
+hr#dwnldhr {
+	animation: none;
+}
+
+.card h2 {
+	font-size: 35px;
+}
+
+.card h3 {
+	font-size: 25px;
+}
+
+.card p {
+	font-size: 18px;
+}
+
+.card {
+	animation: none;
+	position: relative;
+	width: 350px;
+	height: 200px;
+	margin: 30px;
+	border: 2px solid #2D4356;
+	padding: 20px;
+	background: transparent;
+	border-radius: 10px;
+}
+
+.dwnld-btn button {
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid #2D4356;
+	border-radius: 10px;
+	cursor: url('Objects/Cursor.png'), auto;
+	outline: none;
+	animation: none;
+	background: transparent;
+}
+
+.dwnld-btn button:hover {
+	animation: none;
+	background: #2D4356;
+	color: #0CCEB2;
+}
+
+button {
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid #2D4356;
+	border-radius: 10px;
+	cursor: url('Objects/Cursor.png'), auto;
+	outline: none;
+	animation: none;
+	background: transparent;
+}
+
+button:hover {
+	animation: none;
+	background: #2D4356;
+	color: #0CCEB2;
+}
+
+select {
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid #2D4356;
+	border-radius: 10px;
+	cursor: url('Objects/Cursor.png'), auto;
+	outline: none;
+	animation: none;
+	background: transparent;
+}
+
+select:hover {
+	animation: none;
+	background: #2D4356;
+	color: #0CCEB2;
+}
+
+.showcase img {
+	background: white;
+	animation: none;
+	display: none;
+	border: 2px solid #2D4356;
+	border-radius: 10px;
+}
