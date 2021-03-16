@@ -322,8 +322,6 @@ strong:hover {
 
 .showcase img {
 	background: white;
-	animation: none;
-	display: none;
 	border: 2px solid #2D4356;
 	border-radius: 10px;
 }
