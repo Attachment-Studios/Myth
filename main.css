@@ -320,20 +320,6 @@ strong:hover {
 	background: transparent;
 }
 
-.showcase img {
-	background: white;
-	border: 2px solid #2D4356;
-	border-radius: 10px;
-}
-
-.commands-header img {
-	background: white;
-	animation: none;
-	display: none;
-	border: 2px solid #2D4356;
-	border-radius: 10px;
-}
-
 .commands-teaser p {
 	margin-left: 10px;
 	margin-bottom: 10px;
